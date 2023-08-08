@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>hello guy</h1>
+    <div className="bg-black">
+      <h1 className="text-white">hello guy</h1>
     </div>
   );
 }

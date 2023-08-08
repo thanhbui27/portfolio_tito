@@ -26,8 +26,15 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: "./tsconfig.json",
+    tsconfigRootDir: __dirname,
+    project: ["./tsconfig.json", "./tsconfig.node.json", "./postcss.config.js"],
   },
+  settings: {
+    tailwindcss: {
+      config: "./tailwind.config.js",
+    },
+  },
+  ignorePatterns: [".eslintrc.cjs", "vite.config.ts"],
   plugins: ["@typescript-eslint", "react", "prettier"],
   rules: {
     "react/react-in-jsx-scope": 0,
