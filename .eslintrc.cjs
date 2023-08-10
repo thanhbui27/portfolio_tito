@@ -34,9 +34,25 @@ module.exports = {
       config: "./tailwind.config.js",
     },
   },
+
   ignorePatterns: [".eslintrc.cjs", "vite.config.ts"],
   plugins: ["@typescript-eslint", "react", "prettier"],
   rules: {
     "react/react-in-jsx-scope": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+      },
+    ],
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
   },
 };
