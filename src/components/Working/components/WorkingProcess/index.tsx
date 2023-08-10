@@ -14,7 +14,6 @@ const WorkingProcess = () => {
           <h4 className="text-md font-bold">Working process</h4>
         </div>
         <div className="flex items-center justify-start my-8">
-          <hr className="h-[2px] w-[20px] bg-gray-200 border-0 dark:bg-gray-700 mr-3 " />
           <h4 className="lg:text-6xl text-4xl font-Quicksand font-bold">
             How we work
           </h4>

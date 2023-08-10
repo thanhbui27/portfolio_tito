@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs";
 import Header from "./components/Header";
 import Working from "./components/Working";
 
@@ -7,6 +8,7 @@ const App = () => {
       <div className="max-w-screen-2xl my-0 mx-auto pt-4">
         <Header />
         <Working />
+        <AboutUs />
       </div>
     </div>
   );
