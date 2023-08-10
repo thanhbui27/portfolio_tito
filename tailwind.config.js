@@ -1,4 +1,8 @@
+// eslint-disable-next-line import/no-extraneous-dependencies, @typescript-eslint/no-var-requires
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false,
@@ -68,6 +72,9 @@ export default {
         80: "20rem",
         96: "24rem",
       },
+    },
+    fontFamily: {
+      Quicksand: ['"Quicksand"', ...defaultTheme.fontFamily.sans],
     },
     animation: {
       "spin-slow": "spin 15s linear infinite",
