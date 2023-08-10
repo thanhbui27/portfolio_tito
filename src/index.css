@@ -6,7 +6,7 @@
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
 }
 .button-round-md {
-  @apply rounded-md border focus:outline-none font-medium cursor-pointer sm:px-4 sm:py-3 text-center md:mr-0 py-3 px-6 text-xs whitespace-nowrap;
+  @apply rounded-md border focus:outline-none font-medium cursor-pointer sm:px-4 sm:py-3 text-center md:mr-0 py-4 px-8 text-base whitespace-nowrap;
 }
 .button-circle-sm {
   @apply rounded-3xl border focus:outline-none  font-medium text-sm px-2 py-2 text-center  md:mr-0;
