@@ -22,6 +22,7 @@ export default {
         transparent: "transparent",
         black: "#000",
         white: "#fff",
+        grayCustom: "#626262",
         red: {
           300: "#FCB6B6",
           900: "#B40000",
@@ -33,7 +34,10 @@ export default {
           100: "#DFF0F7",
           300: "#B4C7FE",
         },
-        greenLight: "#DDFF94",
+        greenLight: {
+          100: "#DFF0F7",
+          200: "#DDFF94",
+        },
       },
       spacing: {
         px: "1px",
