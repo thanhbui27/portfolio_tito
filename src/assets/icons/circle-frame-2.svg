@@ -1,31 +1,31 @@
-<svg width="1341" height="1341" viewBox="0 0 1341 1341" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M372.263 1042.25C305.001 988.382 253.6 917.293 223.527 836.541C193.454 755.789 185.835 668.394 201.48 583.656C217.126 498.918 255.45 420.007 312.377 355.317C369.303 290.628 442.701 242.581 524.762 216.288C606.823 189.995 694.477 186.44 778.397 206.002C862.318 225.563 939.366 267.508 1001.34 327.375C1063.32 387.242 1107.91 462.791 1130.37 545.984C1152.82 629.177 1152.31 716.901 1128.87 799.823L1127.58 799.459C1150.95 716.77 1151.47 629.292 1129.07 546.333C1106.68 463.374 1062.22 388.038 1000.41 328.339C938.609 268.641 861.778 226.813 778.093 207.307C694.408 187.801 607.001 191.346 525.171 217.565C443.341 243.783 370.149 291.695 313.383 356.203C256.617 420.71 218.4 499.4 202.798 583.9C187.197 668.399 194.794 755.548 224.783 836.073C254.771 916.598 306.028 987.488 373.101 1041.2L372.263 1042.25Z" fill="#A1CFA2" fill-opacity="0.45"/>
+<svg width="1012" height="983" viewBox="0 0 1012 983" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M190.23 863.282C125.26 807.663 76.4509 735.587 48.9228 654.612C21.3948 573.638 16.1614 486.748 33.7715 403.055C51.3816 319.362 91.1864 241.949 149.012 178.934C206.837 115.919 280.552 69.6238 362.428 44.9031C444.303 20.1824 531.321 17.947 614.358 38.4314C697.394 58.9159 773.389 101.365 834.373 161.328C895.358 221.291 939.085 296.559 960.969 379.237C982.853 461.916 982.087 548.96 958.753 631.241L957.463 630.875C980.732 548.825 981.495 462.026 959.673 379.58C937.851 297.134 894.247 222.078 833.434 162.284C772.621 102.49 696.839 60.1595 614.037 39.7327C531.234 19.3059 444.46 21.5349 362.815 46.1861C281.17 70.8373 207.662 117.002 149.999 179.84C92.3365 242.678 52.6436 319.873 35.083 403.331C17.5224 486.789 22.7411 573.434 50.1918 654.181C77.6425 734.928 126.314 806.801 191.102 862.264L190.23 863.282Z" fill="#A1CFA2" fill-opacity="0.45"/>
 <g filter="url(#filter0_d_287_684)">
-<circle cx="882" cy="239" r="69.5" fill="white" stroke="#A4E9F8"/>
-<circle cx="882" cy="239" r="47.069" fill="black"/>
-<rect x="836.385" y="199.42" width="90.5172" height="79.6552" fill="url(#pattern0)"/>
+<circle cx="712" cy="69.9999" r="69.5" fill="white" stroke="#A4E9F8"/>
+<circle cx="712" cy="69.9999" r="47.069" fill="black"/>
+<rect x="666.385" y="30.4195" width="90.5172" height="79.6552" fill="url(#pattern0)"/>
 </g>
 <g filter="url(#filter1_i_287_684)">
-<circle cx="367" cy="1032" r="42" fill="white"/>
-<circle cx="367" cy="1032" r="41.5" stroke="#2E6DB9" stroke-opacity="0.33"/>
-<circle cx="367" cy="1032" r="27.7414" fill="white" stroke="#FEF8F8"/>
-<rect x="329.345" y="997.241" width="74.5862" height="65.1724" fill="url(#pattern1)"/>
+<circle cx="197" cy="863" r="42" fill="white"/>
+<circle cx="197" cy="863" r="41.5" stroke="#2E6DB9" stroke-opacity="0.33"/>
+<circle cx="197" cy="863" r="27.7414" fill="white" stroke="#FEF8F8"/>
+<rect x="159.345" y="828.241" width="74.5862" height="65.1724" fill="url(#pattern1)"/>
 </g>
 <g filter="url(#filter2_d_287_684)">
-<circle cx="1130.5" cy="798.5" r="47.5" fill="white"/>
-<circle cx="1130.5" cy="798.5" r="47.25" stroke="#FF7261" stroke-opacity="0.22" stroke-width="0.5"/>
-<circle cx="1130.5" cy="798.5" r="31.9397" fill="white"/>
-<circle cx="1130.5" cy="798.5" r="31.6897" stroke="#0ACE82" stroke-opacity="0.08" stroke-width="0.5"/>
-<rect x="1109" y="774" width="43" height="51" fill="url(#pattern2)"/>
+<circle cx="960.5" cy="629.5" r="47.5" fill="white"/>
+<circle cx="960.5" cy="629.5" r="47.25" stroke="#FF7261" stroke-opacity="0.22" stroke-width="0.5"/>
+<circle cx="960.5" cy="629.5" r="31.9397" fill="white"/>
+<circle cx="960.5" cy="629.5" r="31.6897" stroke="#0ACE82" stroke-opacity="0.08" stroke-width="0.5"/>
+<rect x="939" y="605" width="43" height="51" fill="url(#pattern2)"/>
 </g>
 <g filter="url(#filter3_d_287_684)">
-<circle cx="205" cy="573" r="31" fill="white"/>
-<circle cx="205" cy="573" r="20.8448" fill="#9EAEB9"/>
-<circle cx="205.422" cy="573.422" r="8.4224" fill="white"/>
-<circle cx="218.422" cy="559.422" r="7.42242" fill="white"/>
+<circle cx="35.0001" cy="404" r="31" fill="white"/>
+<circle cx="35" cy="404" r="20.8448" fill="#9EAEB9"/>
+<circle cx="35.4225" cy="404.423" r="8.4224" fill="white"/>
+<circle cx="48.4225" cy="390.423" r="7.42242" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_d_287_684" x="808" y="169" width="148" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_287_684" x="638" y="-6.10352e-05" width="148" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
@@ -38,7 +38,7 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_287_684" transform="matrix(0.00044 0 0 0.0005 -0.00600001 0)"/>
 </pattern>
-<filter id="filter1_i_287_684" x="325" y="990" width="84" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_i_287_684" x="155" y="821" width="84" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -51,7 +51,7 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_287_684" transform="matrix(0.00166667 0 0 0.00190741 0 -0.0722222)"/>
 </pattern>
-<filter id="filter2_d_287_684" x="1079" y="751" width="103" height="103" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_d_287_684" x="909" y="582" width="103" height="103" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
@@ -64,7 +64,7 @@
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2_287_684" transform="matrix(0.00423256 0 0 0.00356863 -0.604651 -0.372549)"/>
 </pattern>
-<filter id="filter3_d_287_684" x="170" y="542" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter3_d_287_684" x="6.10352e-05" y="373" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>

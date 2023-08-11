@@ -6,8 +6,36 @@
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
 }
 .button-round-md {
-  @apply rounded-md border focus:outline-none font-medium cursor-pointer text-sm md:px-4 md:py-3 text-center md:mr-0 py-2 px-2 text-xs;
+  @apply rounded-md border focus:outline-none font-medium cursor-pointer sm:px-4 sm:py-2 text-center md:mr-0 py-2 px-4 text-base whitespace-nowrap;
 }
 .button-circle-sm {
   @apply rounded-3xl border focus:outline-none  font-medium text-sm px-2 py-2 text-center  md:mr-0;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Quicksand";
+    src: url("/src/fonts/quicksand/Quicksand-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Quicksand";
+    src: url("/src/fonts/quicksand/Quicksand-Light.ttf") format("truetype");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Quicksand";
+    src: url("/src/fonts/quicksand/Quicksand-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: "Quicksand";
+    src: url("/src/fonts/quicksand/Quicksand-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Quicksand";
+    src: url("/src/fonts/quicksand/Quicksand-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  }
 }
