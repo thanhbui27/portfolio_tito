@@ -14,10 +14,10 @@ const SliderBar = () => {
           famous Semantics, large language
         </h4>
       </div>
-      <div className="relative -top-[120px] w-full h-full overflow-hidden">
+      <div className="relative px-8 py-12 overflow-hidden">
         <img
           src={CircleFrame1}
-          className="w-full h-full relative animate-spin-slow"
+          className="z-20 relative animate-spin-slow"
           alt="circel1"
         />
         <img
@@ -31,7 +31,7 @@ const SliderBar = () => {
           alt="laptop"
         />
       </div>
-      <div className="flex md:order-2 top-[calc(100%-40%)] md:top-[calc(100%-35%)]  absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
+      <div className="flex md:order-2 top-[calc(100%-5%)] md:top-[calc(100%-25%)] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
         <button
           type="button"
           className=" button-round-md  bg-red-900 text-white "

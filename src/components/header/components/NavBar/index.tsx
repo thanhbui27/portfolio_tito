@@ -11,7 +11,7 @@ const NavBar = () => {
   };
   return (
     <nav className=" w-full z-20  left-0 ">
-      <div className=" bg-[#E8E8E8]/[.3] rounded-md max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className=" rounded-md max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-2">
         <Link to="/" className="flex items-center">
           <img src="logo.svg" className="h-8 mr-3" alt="Logo" />
         </Link>
