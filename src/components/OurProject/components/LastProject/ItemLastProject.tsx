@@ -1,5 +1,5 @@
-import btn from "@/assets/icons/pre-btn.svg";
 import { TDataOutProject } from "../../constants";
+import btn from "@/assets/icons/pre-btn.svg";
 
 type TPropItemLastProject = {
   item: TDataOutProject;
