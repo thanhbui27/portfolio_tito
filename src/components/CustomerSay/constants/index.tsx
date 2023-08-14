@@ -39,9 +39,11 @@ export const DataCustomerSay: TDataCustomerSay[] = [
 export const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 1500,
   slidesToShow: 1,
   slidesToScroll: 1,
   initialSlide: 0,
   arrows: false,
+  autoplay: true,
+  autoplaySpeed: 10000,
 };
