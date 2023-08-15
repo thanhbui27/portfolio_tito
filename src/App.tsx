@@ -1,4 +1,6 @@
 import AboutUs from "./components/AboutUs";
+import BuidProduct from "./components/BuildProduct";
+import CustomerQuestion from "./components/CustomerQuestion";
 import CustomerSay from "./components/CustomerSay";
 import Header from "./components/Header";
 import OurProject from "./components/OurProject";
@@ -15,6 +17,8 @@ const App = () => {
         <Service />
         <OurProject />
         <CustomerSay />
+        <CustomerQuestion />
+        <BuidProduct />
       </div>
     </div>
   );
