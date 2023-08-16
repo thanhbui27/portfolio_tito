@@ -5,6 +5,10 @@ import Shap4 from "@/assets/icons/shap-4.svg";
 import Shap5 from "@/assets/icons/shap-5.svg";
 import PreBtn from "@/assets/icons/pre-btn.svg";
 import NextBtn from "@/assets/icons/next-btn.svg";
+import Slack from "@/assets/images/slack.png";
+import Dropbox from "@/assets/images/dropbox.png";
+import Discord from "@/assets/images/discord.png";
+import Trello from "@/assets/images/trello.png";
 
 export interface TypeDataSlideWorking {
   id: string;
@@ -44,6 +48,29 @@ export const DataSlideWorking: TypeDataSlideWorking[] = [
     id: "05",
     title: "Testing",
     icon: Shap5,
+  },
+];
+
+export const DataWork = [
+  {
+    id: 1,
+    image: Slack,
+    alt: "Slack",
+  },
+  {
+    id: 2,
+    image: Dropbox,
+    alt: "Dropbox",
+  },
+  {
+    id: 3,
+    image: Discord,
+    alt: "Discord",
+  },
+  {
+    id: 4,
+    image: Trello,
+    alt: "Trello",
   },
 ];
 const NextArrow = (props: PropsBtn) => {

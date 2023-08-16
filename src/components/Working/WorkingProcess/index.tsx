@@ -1,9 +1,9 @@
 import Slider from "react-slick";
+import { DataSlideWorking, settings } from "../constants";
+import ItemWorking from "./ItemWorking";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles.css";
-import { DataSlideWorking, settings } from "../constants";
-import ItemWorking from "./ItemWorking";
 
 const WorkingProcess = () => {
   return (
