@@ -6,13 +6,14 @@ type TPropsCard = {
 };
 
 const CardServiceItem: React.FC<TPropsCard> = ({ item }) => {
+  const { icon, title, tag: tags } = item;
   return (
     <div className="p-7 w-full shadow-md rounded-md">
       <div className="flex flex-col items-start justify-center text-grayCustom">
-        <img src={item.icon} alt={item.title} />
-        <h4 className="text-xl font-bold">{item.title}</h4>
+        <img src={icon} alt={title} />
+        <h4 className="text-xl font-bold">{title}</h4>
         <div className="flex items-center justify-start w-full h-full gap-2  my-5 flex-wrap">
-          {item.tag.map((tag) => (
+          {tags.map((tag) => (
             <TagItem item={tag} key={tag.id} classNames="text-xs " />
           ))}
         </div>
