@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { TDataCustomerQuestion } from "../../constants";
+import DropdownV2 from "@/assets/icons/dropdownV2.svg";
 
 type TItemAccordion = {
   item: TDataCustomerQuestion;
 };
 
 const ItemAccordion: React.FC<TItemAccordion> = ({ item }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const { title } = item;
   const handleClick = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((open) => !open);
   };
   return (
     <div id="accordionExample">
@@ -25,26 +26,13 @@ const ItemAccordion: React.FC<TItemAccordion> = ({ item }) => {
             aria-expanded="true"
             aria-controls="collapseOne"
           >
-            {item.title}
+            {title}
             <span
               className={`${
                 isOpen ? `rotate-[-180deg] -mr-1` : `rotate-0`
               } ml-auto h-5 w-5 shrink-0 transition-transform duration-200 ease-in-out motion-reduce:transition-none `}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="h-6 w-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                />
-              </svg>
+              <img src={DropdownV2} alt="dropdown" />
             </span>
           </button>
         </h2>
