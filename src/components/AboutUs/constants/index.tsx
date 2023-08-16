@@ -3,7 +3,7 @@ export type TDataCircle = {
   title: string;
   meanTitle: string;
   clasNames: string;
-  style: React.CSSProperties;
+  style?: React.CSSProperties;
   backgroundCircle: string;
 };
 
@@ -12,7 +12,6 @@ export const DataCircle: TDataCircle[] = [
     id: 1,
     title: "10+",
     meanTitle: "Years Experience",
-    style: {},
     backgroundCircle: "#FCD1B6",
     clasNames:
       " md:left-[calc(100%-20rem)] lg:left-[calc(100%-28rem)] md:-top-20 lg:top-auto",
@@ -54,7 +53,6 @@ export const DataCircle: TDataCircle[] = [
     id: 5,
     title: "10+",
     meanTitle: "Years Experience",
-    style: {},
     backgroundCircle: "#DFF0F7",
     clasNames:
       "md:right-[calc(100%-20rem)] lg:right-[calc(100%-28rem)]  md:-top-20 lg:top-auto",
