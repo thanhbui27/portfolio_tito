@@ -1,3 +1,7 @@
+import face from "@/assets/icons/faceb.svg";
+import insta from "@/assets/icons/insta.svg";
+import twit from "@/assets/icons/twit.svg";
+
 export type TItem = {
   id: number;
   titleItem: string;
@@ -87,5 +91,23 @@ export const DataFooter: TDataFooter[] = [
         titleItem: "Status Page",
       },
     ],
+  },
+];
+
+export const DataSocialIcon = [
+  {
+    id: 1,
+    alt: "facebook",
+    icon: face,
+  },
+  {
+    id: 2,
+    alt: "instagram",
+    icon: insta,
+  },
+  {
+    id: 3,
+    alt: "twite",
+    icon: twit,
   },
 ];

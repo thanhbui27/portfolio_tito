@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
-import face from "@/assets/icons/faceb.svg";
-import insta from "@/assets/icons/insta.svg";
-import twit from "@/assets/icons/twit.svg";
-import { DataFooter } from "./constants";
+import { DataFooter, DataSocialIcon } from "./constants";
 
 const Footer = () => {
   return (
@@ -58,9 +55,9 @@ const Footer = () => {
         <div className="flex items-center justify-between">
           <span>©Tito - All Rights Reserved</span>
           <div className="flex items-start justify-center gap-2">
-            <img src={face} alt="" />
-            <img src={insta} alt="" />
-            <img src={twit} alt="" />
+            {DataSocialIcon.map((dt) => (
+              <img key={dt.id} src={dt.icon} alt={dt.alt} />
+            ))}
           </div>
         </div>
       </div>
