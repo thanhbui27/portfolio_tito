@@ -1,0 +1,12 @@
+.customer .slick-dots {
+  @apply bottom-[10%];
+}
+.customer .slick-slider {
+  @apply p-0 pb-8;
+}
+.customer li button::before {
+  @apply !w-4 !h-1 !content-[""] transition-all rounded-lg bg-red-400;
+}
+.customer .slick-active button::before {
+  @apply !w-6 bg-red-900;
+}
