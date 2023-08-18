@@ -1,0 +1,16 @@
+.slick-slide > div {
+  margin: 0.3rem;
+}
+.slick-prev::before,
+.slick-next::before {
+  @apply hidden;
+}
+.slick-slider .slick-arrow {
+  @apply absolute -top-28;
+}
+.slick-slider .slick-prev {
+  @apply right-20 left-auto;
+}
+.slick-slider .slick-next {
+  @apply right-4;
+}
