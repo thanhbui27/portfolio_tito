@@ -21,7 +21,7 @@ const SliderBar = () => {
           alt="circel1"
         />
         <img
-          className="absolute left-[calc(100%-87%)] center z-10"
+          className="absolute left-0 top-[2%] z-10 animate-spin-reverse "
           src={CircleFrame2}
           alt="circel2"
         />
