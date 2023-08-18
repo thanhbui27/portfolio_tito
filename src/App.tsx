@@ -1,5 +1,11 @@
 import AboutUs from "./components/AboutUs";
+import BuidProduct from "./components/BuildProduct";
+import CustomerQuestion from "./components/CustomerQuestion";
+import CustomerSay from "./components/CustomerSay";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import OurProject from "./components/OurProject";
+import Service from "./components/Service";
 import Working from "./components/Working";
 
 const App = () => {
@@ -9,6 +15,12 @@ const App = () => {
         <Header />
         <Working />
         <AboutUs />
+        <Service />
+        <OurProject />
+        <CustomerSay />
+        <CustomerQuestion />
+        <BuidProduct />
+        <Footer />
       </div>
     </div>
   );

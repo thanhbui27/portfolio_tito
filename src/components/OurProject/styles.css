@@ -1,0 +1,31 @@
+.last-project .slick-prev::before,
+.last-project .slick-next::before {
+  @apply block left-0 right-0;
+}
+.last-project .slick-slider .slick-arrow {
+  @apply absolute w-10 h-10 z-50;
+}
+.last-project .slick-slider .slick-arrow::before {
+  @apply text-4xl;
+}
+.last-project .slick-slider .slick-prev {
+  @apply left-0 top-1/2;
+}
+.last-project .slick-slider .slick-next {
+  @apply right-0 top-1/2;
+}
+
+.last-project .slick-slide {
+  @apply lg:opacity-70 lg:pointer-events-none;
+}
+.last-project .centers .slick-center .project {
+  @apply scale-125 z-[1000] transition-all duration-500  lg:pointer-events-auto;
+}
+.last-project .slick-current {
+  @apply opacity-100;
+}
+.last-project .last-project .slick-list,
+.slick-slider,
+.slick-track {
+  @apply lg:py-14 py-8 px-0;
+}
