@@ -1,6 +1,6 @@
+import ComputersCanvas from "@/components/common/Canvas/Computers ";
 import CircleFrame1 from "@/assets/icons/circle-frame-2.svg";
 import CircleFrame2 from "@/assets/icons/circle-frame-1.svg";
-import Laptop from "@/assets/images/laptopmac.png";
 
 const SliderBar = () => {
   return (
@@ -25,11 +25,9 @@ const SliderBar = () => {
           src={CircleFrame2}
           alt="circel2"
         />
-        <img
-          className="center object-scale-down h-1/2 w-1/2"
-          src={Laptop}
-          alt="laptop"
-        />
+        <div className="center object-scale-down h-1/2 w-1/2 z-50">
+          <ComputersCanvas />
+        </div>
       </div>
       <div className="flex md:order-2 top-[calc(100%-5%)] md:top-[calc(100%-25%)] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
         <button

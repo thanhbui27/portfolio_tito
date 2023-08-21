@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { memo, useState } from "react";
 import { TDataCustomerQuestion } from "../../constants";
 import DropdownV2 from "@/assets/icons/dropdownV2.svg";
 
@@ -55,4 +55,4 @@ const ItemAccordion: React.FC<TItemAccordion> = ({ item }) => {
   );
 };
 
-export default ItemAccordion;
+export default memo(ItemAccordion);

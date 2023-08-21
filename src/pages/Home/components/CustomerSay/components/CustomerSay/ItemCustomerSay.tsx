@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { TDataCustomerSay } from "../../constants";
 
 type TItemCustomerSay = {
@@ -29,4 +30,4 @@ const ItemCustomerSay: React.FC<TItemCustomerSay> = ({ item }) => {
   );
 };
 
-export default ItemCustomerSay;
+export default memo(ItemCustomerSay);
