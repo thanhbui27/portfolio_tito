@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { TypeDataSlideWorking } from "../constants";
 
 interface TypeProps {
@@ -30,4 +31,4 @@ const ItemWorking: React.FC<TypeProps> = ({ item }) => {
   );
 };
 
-export default ItemWorking;
+export default memo(ItemWorking);
