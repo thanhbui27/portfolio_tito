@@ -82,6 +82,19 @@ export default {
     },
     animation: {
       "spin-slow": "spin 15s linear infinite",
+      "spin-reverse": "reverse-spin 15s linear infinite",
+    },
+    keyframes: {
+      "reverse-spin": {
+        from: {
+          transform: "rotate(360deg)",
+        },
+      },
+      spin: {
+        to: {
+          transform: "rotate(360deg)",
+        },
+      },
     },
   },
   plugins: [],

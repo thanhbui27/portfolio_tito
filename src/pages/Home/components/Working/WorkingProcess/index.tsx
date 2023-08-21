@@ -1,8 +1,6 @@
-import Slider from "react-slick";
 import { DataSlideWorking, settings } from "../constants";
 import ItemWorking from "./ItemWorking";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Sliders from "@/components/common/Sliders/Sliders";
 import "../styles.css";
 
 const WorkingProcess = () => {
@@ -27,11 +25,11 @@ const WorkingProcess = () => {
         </p>
       </div>
       <div className="carousel relative mt-20">
-        <Slider {...settings}>
+        <Sliders settings={settings}>
           {DataSlideWorking.map((item) => (
             <ItemWorking key={item.id} item={item} />
           ))}
-        </Slider>
+        </Sliders>
       </div>
     </div>
   );
