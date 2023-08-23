@@ -1,12 +1,15 @@
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { DataFooter, DataSocialIcon } from "./constants";
+import { fadeIn } from "@/utils/motion";
+import SectionWrapper from "@/hoc/SectionWrapper";
 
 const Footer = () => {
   return (
-    <footer className="mt-40 p-4">
+    <footer className="mt-40 p-4 overflow-hidden">
       <div>
         <div className="flex justify-between items-start flex-wrap lg:grid lg:grid-cols-[3fr_1fr_1fr_1fr] lg:items-start">
-          <div>
+          <motion.div variants={fadeIn("right", "spring", 0.5, 2)}>
             <Link to="/" className="flex items-center">
               <img src="logo.svg" className="h-8 mr-3" alt="Logo" />
             </Link>
@@ -29,29 +32,43 @@ const Footer = () => {
             <span className="md:whitespace-nowrap font-medium text-base">
               17 Princess Road, London, Greater London NW1 8JR, UK
             </span>
-          </div>
+          </motion.div>
           {DataFooter.map((footer) => (
-            <div key={footer.id} className="mt-10 md:mt-0">
-              <h3 className="font-semibold mb-5 whitespace-nowrap text-lg">
+            <motion.div
+              variants={fadeIn("right", "spring", 0.5, 2)}
+              key={footer.id}
+              className="mt-10 md:mt-0"
+            >
+              <motion.h3
+                variants={fadeIn("left", "spring", 0.6, 2)}
+                className="font-semibold mb-5 whitespace-nowrap text-lg"
+              >
                 {footer.title}
-              </h3>
+              </motion.h3>
               <ul className="list-none">
                 {footer.item.map((i) => (
-                  <li className="mb-3" key={i.id}>
+                  <motion.li
+                    variants={fadeIn("left", "spring", 0.6 * i.id, 2)}
+                    className="mb-3"
+                    key={i.id}
+                  >
                     <Link
                       to="/"
                       className="whitespace-nowrap font-medium text-base"
                     >
                       {i.titleItem}
                     </Link>
-                  </li>
+                  </motion.li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
-      <div className="py-5 mt-8 border-t-2 ">
+      <motion.div
+        variants={fadeIn("up", "spring", 0.5, 1)}
+        className="py-5 mt-8 border-t-2 "
+      >
         <div className="flex items-center justify-between">
           <span>©Tito - All Rights Reserved</span>
           <div className="flex items-start justify-center gap-2">
@@ -60,8 +77,8 @@ const Footer = () => {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </footer>
   );
 };
-export default Footer;
+export default SectionWrapper(Footer);

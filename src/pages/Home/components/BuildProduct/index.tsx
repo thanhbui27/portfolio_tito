@@ -1,6 +1,10 @@
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/motion";
+import SectionWrapper from "@/hoc/SectionWrapper";
+
 const BuidProduct = () => {
   return (
-    <div className="mt-20">
+    <motion.div variants={fadeIn("up", "spring", 0.5, 2)} className="mt-20">
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center my-8">
           <h4 className="lg:text-5xl text-3xl font-Quicksand font-bold text-center">
@@ -19,8 +23,8 @@ const BuidProduct = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default BuidProduct;
+export default SectionWrapper(BuidProduct);

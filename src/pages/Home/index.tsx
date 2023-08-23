@@ -9,7 +9,7 @@ import Working from "./components/Working";
 
 const Home = () => {
   return (
-    <div>
+    <div className="relative z-0 overflow-hidden">
       <SliderBar />
       <Working />
       <AboutUs />

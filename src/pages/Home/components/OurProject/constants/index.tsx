@@ -78,7 +78,7 @@ export const settings = {
   className: "centers",
   centerMode: true,
   dots: false,
-  infinite: true,
+  infinite: false,
   speed: 500,
   slidesToScroll: 1,
   initialSlide: 0,
@@ -88,7 +88,7 @@ export const settings = {
     {
       breakpoint: 990,
       settings: {
-        centerMode: false,
+        centerMode: true,
         slidesToScroll: 1,
         infinite: true,
         dots: false,
@@ -97,31 +97,31 @@ export const settings = {
     {
       breakpoint: 900,
       settings: {
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 0,
-        centerMode: false,
+        centerMode: true,
       },
     },
     {
       breakpoint: 780,
       settings: {
         slidesToScroll: 1,
-        centerMode: true,
+        centerMode: false,
         className: "none",
       },
     },
     {
       breakpoint: 680,
       settings: {
-        slidesToScroll: 1,
         centerMode: false,
+        arrows: false,
       },
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToScroll: 1,
         centerMode: false,
+        arrows: false,
       },
     },
   ],

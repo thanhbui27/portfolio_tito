@@ -1,5 +1,7 @@
 import { memo } from "react";
+import { motion } from "framer-motion";
 import { TypeDataSlideWorking } from "../constants";
+import { fadeIn } from "@/utils/motion";
 
 interface TypeProps {
   item: TypeDataSlideWorking;
@@ -8,7 +10,10 @@ interface TypeProps {
 const ItemWorking: React.FC<TypeProps> = ({ item }) => {
   const { title, icon, id } = item;
   return (
-    <div className="carousel-item flex flex-col items-start justify-center border-r-2 border-blue-100">
+    <motion.div
+      variants={fadeIn("right", "spring", 0.5 * Number(id), 0.75)}
+      className="carousel-item flex flex-col items-start justify-center border-r-2 border-blue-100"
+    >
       <div className="flex items-center justify-start relative">
         <img src={icon} alt="shap1" />
         <h4 className="lg:text-4xl font-bold text-red-900 absolute bottom-0 -left-2 text-3xl">
@@ -27,7 +32,7 @@ const ItemWorking: React.FC<TypeProps> = ({ item }) => {
       >
         Learn More
       </button>
-    </div>
+    </motion.div>
   );
 };
 

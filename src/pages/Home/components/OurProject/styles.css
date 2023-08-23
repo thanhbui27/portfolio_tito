@@ -16,10 +16,10 @@
 }
 
 .last-project .slick-slide {
-  @apply lg:opacity-70 lg:pointer-events-none;
+  @apply lg:opacity-70 lg:pointer-events-none flex-1;
 }
 .last-project .centers .slick-center .project {
-  @apply scale-125 z-[1000] transition-all duration-500  lg:pointer-events-auto;
+  @apply scale-125 z-[1000] !transition-all !duration-500  lg:pointer-events-auto;
 }
 .last-project .slick-current {
   @apply opacity-100;
@@ -27,5 +27,5 @@
 .last-project .last-project .slick-list,
 .slick-slider,
 .slick-track {
-  @apply lg:py-14 py-8 px-0;
+  @apply lg:py-14 py-8 px-0 sm:h-full xs:h-[330px];
 }

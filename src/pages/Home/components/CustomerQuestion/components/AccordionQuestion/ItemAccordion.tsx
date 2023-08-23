@@ -1,6 +1,8 @@
 import { memo, useState } from "react";
+import { motion } from "framer-motion";
 import { TDataCustomerQuestion } from "../../constants";
 import DropdownV2 from "@/assets/icons/dropdownV2.svg";
+import { fadeIn } from "@/utils/motion";
 
 type TItemAccordion = {
   item: TDataCustomerQuestion;
@@ -8,12 +10,15 @@ type TItemAccordion = {
 
 const ItemAccordion: React.FC<TItemAccordion> = ({ item }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { title } = item;
+  const { title, id } = item;
   const handleClick = () => {
     setIsOpen((open) => !open);
   };
   return (
-    <div id="accordionExample">
+    <motion.div
+      variants={fadeIn("right", "spring", 0.5 * id, 1)}
+      id="accordionExample"
+    >
       <div className="md:w-2/3 mx-auto">
         <h2 className="mb-0" id="headingOne">
           <button
@@ -51,7 +56,7 @@ const ItemAccordion: React.FC<TItemAccordion> = ({ item }) => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
