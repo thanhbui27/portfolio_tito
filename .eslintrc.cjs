@@ -56,5 +56,7 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/no-unescaped-entities": "off",
     "import/extensions": "off",
+    "no-nested-ternary": "off",
+    "react/function-component-definition": "off",
   },
 };

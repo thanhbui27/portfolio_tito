@@ -24,7 +24,7 @@ const Computers: React.FC<TProps> = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 7 : 9}
+        scale={isMobile ? 10 : 9}
         position={isMobile ? [1, -2, 0] : [0, -2, 0]}
         rotation={[0, 1.3, 0]}
       />
